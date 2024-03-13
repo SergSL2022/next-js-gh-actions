@@ -16,12 +16,12 @@ jobs:
 
             - name: Install
               run: |
-                pwd
+                cd /home/serg/webapps/nextjs-gh
                 npm install
             
             - name: Build
               run: |
-                pwd
+                cd /home/serg/webapps/nextjs-gh
                 npm run build
 
             - name: Start
