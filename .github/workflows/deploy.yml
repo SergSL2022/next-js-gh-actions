@@ -9,6 +9,11 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
 
+            - name: Download files
+              run: |
+                pwd
+                whoami
+
             - name: Install
               run: npm install
             
