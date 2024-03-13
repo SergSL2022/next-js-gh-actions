@@ -11,8 +11,8 @@ jobs:
 
             - name: Download files
               run: |
-                pwd
-                whoami
+                cd /home/serg/webapps/nextjs-gh
+                git pull
 
             - name: Install
               run: npm install
