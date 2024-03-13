@@ -7,7 +7,7 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Get started Github Pages&nbsp;
-          <code className={styles.code}>YYYYYY</code>
+          <code className={styles.code}>Success deploy</code>
         </p>
         <div>
           <a

@@ -25,4 +25,4 @@ jobs:
                 npm run build
 
             - name: Start
-              run: pm2 start nextjs-gh
+              run: pm2 restart nextjs-gh
