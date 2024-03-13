@@ -15,10 +15,14 @@ jobs:
                 git pull
 
             - name: Install
-              run: npm install
+              run: |
+                pwd
+                npm install
             
             - name: Build
-              run: npm run build
+              run: |
+                pwd
+                npm run build
 
             - name: Start
               run: pm2 start nextjs-gh
